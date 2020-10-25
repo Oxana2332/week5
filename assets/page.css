@@ -14,15 +14,24 @@ a:hover {
 }
 
 #logo {
-    position: absolute;
+    display: flex;
+    align-self: flex-start;
     width: 162px;
     height: 48px;
     z-index: 2;
+    background-color: #FFFFFF;
+
+}
+
+.logo {
+    display: flex;
+    margin-right: 400px;
 }
 
 #menu {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
 }
 
 
