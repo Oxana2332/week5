@@ -20,16 +20,19 @@ a:hover {
     z-index: 2;
 }
 
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+
 .menu {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: none;
+    display: flex;
     font-family: Jost;
     font-size: 16px;
     color: #3B3B3B;
     padding: 4px;
-    z-index: 2;
+    margin: 20px;
 }
 
 #onlainit {

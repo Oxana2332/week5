@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(204, 233, 250);
+}
+
+#hat {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 150%;
+    padding: 3%;
+}
+
+.flex-cont {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+img {
+    width: 20%;
+}
+
+.main {
+    background-color: rgb(250, 177, 109);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.paragraph1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.paragraph2 {
+    display: flex;
+    background-color: rgb(235, 111, 53);
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.paragraph3 {
+    display: flex;
+    background-color: rgb(235, 111, 53);
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.paragraph4 {
+    background-color: rgb(235, 111, 53);
+    display: flex;
+    width: 100%;
+    margin: 1%;
+    padding: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.p {
+    background-color: mintcream;
+    padding: 3%;
+}
