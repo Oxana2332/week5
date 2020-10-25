@@ -1,0 +1,496 @@
+body {
+    background-color: #F2F2F2;
+}
+
+a:hover {
+    color: coral;
+}
+
+.rectangle {
+    z-index: 1;
+    position: relative;
+    width: 1800px;
+    background: #FFFFFF;
+}
+
+#logo {
+    position: absolute;
+    width: 162px;
+    height: 48px;
+    z-index: 2;
+}
+
+.menu {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    font-family: Jost;
+    font-size: 16px;
+    color: #3B3B3B;
+    padding: 4px;
+    z-index: 2;
+}
+
+#onlainit {
+    width: 468px;
+    height: 212px;
+    margin-left: 10px;
+}
+
+#study {
+    width: 350px;
+    height: 53px;
+    margin-left: 10px;
+
+}
+
+#mainP {
+    float: right;
+    width: 846px;
+    height: 567.17px;
+}
+
+#reg {
+    width: 170px;
+    height: 40px;
+    left: 810px;
+    top: 571px;
+    margin-left: 10px;
+    background: #EA5D80;
+    border-radius: 25px;
+
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.995px;
+    line-height: 26px;
+
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+
+#access {
+    width: 270px;
+    height: 39px;
+    left: 810px;
+    top: 629px;
+    margin-left: 10px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #3B3B3B;
+}
+
+#prof {
+    text-align: center;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 59.9832px;
+    line-height: 244px;
+    color: #3B3B3B;
+    clear: right;
+}
+
+#complex {
+    text-align: center;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.995px;
+    color: #3B3B3B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#box1 {
+    display: flex;
+    justify-content: center;
+}
+
+.professy {
+    width: 431;
+    height: 332px;
+}
+
+#intensive {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60.0324px;
+    line-height: 78px;
+    display: flex;
+    justify-content: center;
+    color: #3B3B3B;
+}
+
+.intensive {
+    display: flex;
+    justify-content: center;
+}
+
+#with {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.0097px;
+    display: flex;
+    justify-content: center;
+    color: #3B3B3B;
+}
+
+#people {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60.0324px;
+    line-height: 78px;
+    display: flex;
+    justify-content: center;
+    color: #3B3B3B;
+}
+
+#pay {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.0097px;
+    line-height: 78px;
+    display: flex;
+    justify-content: center;
+    color: #3B3B3B;
+}
+
+.olesyimg {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    left: 739px;
+    top: 2401px;
+
+}
+
+.olesy {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13.7195px;
+    line-height: 27px;
+    color: #3B3B3B;
+    display: flex;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.yna {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24.013px;
+    line-height: 27px;
+
+
+    color: #3B3B3B;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.emaily {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.2828px;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+
+    color: #3B3B3B;
+}
+
+.emailyy {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.2828px;
+    line-height: 7px;
+    color: #3B3B3B;
+}
+
+.recall {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    display: flex;
+    align-self: center;
+    width: 55px;
+    height: 55px;
+    left: 1621px;
+    top: 2522px;
+}
+
+#comment {
+    display: flex;
+    align-self: center;
+    line-height: 30px;
+    color: #3B3B3B;
+}
+
+.commentOlesy {
+    display: flex;
+    flex-direction: column;
+}
+
+#whatis {
+    display: flex;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60.0324px;
+    line-height: 78px;
+    color: #3B3B3B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.video {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#video {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.0097px;
+    line-height: 26px;
+    display: flex;
+    color: #3B3B3B;
+}
+
+#videoImg {
+    width: 503px;
+    height: 353px;
+    left: 1325px;
+    top: 2839px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+.figure1 {
+    display: flex;
+    flex-direction: row;
+    clear: right;
+}
+
+.figure2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lamp {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.0097px;
+    line-height: 26px;
+    display: flex;
+    color: #3B3B3B;
+}
+
+#knowing {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60.0324px;
+    line-height: 78px;
+    text-align: center;
+    color: #3B3B3B;
+
+}
+
+#figure {
+    display: flex;
+
+    width: 1178px;
+    height: 220px;
+    left: 692px;
+    top: 4042px;
+}
+
+.arrow2 {
+    display: flex;
+    flex-shrink: 1;
+    align-self: center;
+    width: 55px;
+    height: 55px;
+    left: 1948px;
+    top: 4180px;
+}
+
+.windows {
+    display: flex;
+    flex-shrink: 1;
+    width: 380px;
+    height: 220px;
+    background: #3B3B3B;
+    border-radius: 5px;
+}
+
+.neither:active {
+    color: chocolate;
+}
+
+.neither {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.0076px;
+    line-height: 20px;
+    color: #3B3B3B;
+
+}
+
+#footer {
+    display: flex;
+    background-color: #3B3B3B;
+    margin-top: 90px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.sign {
+    display: flex;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contacts {
+    display: flex;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+#logotip {
+    display: flex;
+    width: 117px;
+    height: 100px;
+    top: 4540px;
+    left: 810px;
+}
+
+#spam {
+    display: flex;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+#news {
+    display: flex;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+#e-mail:focus {
+    display: flex;
+    background-color: rgb(20, 197, 220);
+}
+
+#e-mail {
+    display: flex;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.9961px;
+    line-height: 20px;
+    left: -4px;
+
+
+    color: #3B3B3B;
+    background: #FFFFFF;
+    border: 10px solid #ffffff;
+    border-radius: 30px;
+    box-sizing: border-box;
+
+
+}
+
+#mail {
+    display: flex;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.9961px;
+    line-height: 20px;
+
+    color: #F39D90;
+}
+
+
+#singing {
+    display: flex;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    background: #F39D90;
+    border-radius: 30px;
+}
+
+.infoh {
+    display: flex;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.info {
+    display: flex;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
