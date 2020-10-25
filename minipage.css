@@ -18,11 +18,7 @@ body {
     flex-direction: row-reverse;
 }
 
-
 img {
-    display: flex;
-    justify-content: center;
-
     width: 20%;
 }
 
@@ -43,20 +39,23 @@ img {
 }
 
 .paragraph2 {
+    display: flex;
     background-color: rgb(235, 111, 53);
-    float: left;
-    margin: 1%;
-    padding: 1%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.paragraph3 {
-    background-color: rgb(235, 111, 53);
-    float: right;
     margin: 1%;
     padding: 1%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     flex-grow: 1;
+    justify-content: center;
+}
+
+.paragraph3 {
+    display: flex;
+    background-color: rgb(235, 111, 53);
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 .paragraph4 {
@@ -66,11 +65,12 @@ img {
     margin: 1%;
     padding: 2%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 .footer {
     display: flex;
-    clear: both;
+
     justify-content: space-around;
 }
 
